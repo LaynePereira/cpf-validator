@@ -1,0 +1,27 @@
+{
+  "name": "cpfvalidator-jess",
+  "version": "1.0.0",
+  "description": "Biblioteca para validação de CPF",
+  "main": "index.js",
+  "directories": {
+    "test": "index.spec.js"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "keywords": [
+    "cpf",
+    "validator",
+    "lib"
+  ],
+  "author": "Jéssika Layne",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
+  }
+}
