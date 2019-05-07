@@ -16,7 +16,7 @@ $  npm install cpfValidator-jess
 ```node
 
 > const cpfValidator = require("cpfValidator-jess");
-> console.log(cpfValidator("39107173814"))
+> console.log(cpfValidator.cpfValidator("39107173814"))
 > // returns "true"
 
 ```
