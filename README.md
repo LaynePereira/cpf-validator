@@ -1,4 +1,4 @@
-# Conversor de números v.1.0.0
+# Validador de CPF v.1.0.0
 
 **Esta biblioteca se destina à validação de números de CPF (Cadastro de Pessoas Físicas)**
 Nesta versão, você é capaz de validar números de CPF com 11 números, pontos (.) e traços (-) não são validos.
@@ -16,7 +16,7 @@ $  npm install cpfValidator-jess
 ```node
 
 > const cpfValidator = require("cpfValidator-jess");
-> console.log(cpfValidator("123.456.789-09"))
+> console.log(cpfValidator("39107173814"))
 > // returns "true"
 
 ```
